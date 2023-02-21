@@ -7,19 +7,6 @@ import LoadingSpinner from "../components/UI/LoadingSpinner";
 import useHttp from "../hooks/use-http";
 import { getAllQuotes } from "../lib/api";
 
-const DUMMY_QUOTES = [
-  {
-    id: "q1",
-    author: "Jeff",
-    text: "Learning react is fun!",
-  },
-  {
-    id: "q2",
-    author: "Jack",
-    text: "Learning react is great!",
-  },
-];
-
 function AllQuotes() {
   const { sendRequest, status, data: loadedQuotes, error } = useHttp(getAllQuotes, true);
 
@@ -43,7 +30,7 @@ function AllQuotes() {
     return <NoQuotesFound></NoQuotesFound>;
   }
 
-  return <QuoteList quotes={DUMMY_QUOTES}></QuoteList>;
+  return <QuoteList quotes={loadedQuotes}></QuoteList>;
 }
 
 export default AllQuotes;

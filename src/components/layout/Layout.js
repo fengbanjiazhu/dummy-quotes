@@ -2,6 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import MainNavigation from "./MainNavigation";
 import classes from "./Layout.module.css";
+import LoadingSpinner from "../UI/LoadingSpinner";
 
 function Layout(props) {
   return (
