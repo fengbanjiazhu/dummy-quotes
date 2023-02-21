@@ -13,6 +13,10 @@ function App() {
           <Redirect to="/quotes"></Redirect>
         </Route>
 
+        <Route path="/dummy-quotes" exact>
+          <Redirect to="/quotes"></Redirect>
+        </Route>
+
         <Route path="/quotes" exact>
           <AllQuotes></AllQuotes>
         </Route>
