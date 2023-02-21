@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./dummy-quotes/static/css/main.6aca5dc5.css",
-    "main.js": "./dummy-quotes/static/js/main.8e776e6a.js",
+    "main.js": "./dummy-quotes/static/js/main.ee009fac.js",
     "index.html": "./dummy-quotes/index.html",
     "main.6aca5dc5.css.map": "./dummy-quotes/static/css/main.6aca5dc5.css.map",
-    "main.8e776e6a.js.map": "./dummy-quotes/static/js/main.8e776e6a.js.map"
+    "main.ee009fac.js.map": "./dummy-quotes/static/js/main.ee009fac.js.map"
   },
   "entrypoints": [
     "static/css/main.6aca5dc5.css",
-    "static/js/main.8e776e6a.js"
+    "static/js/main.ee009fac.js"
   ]
 }
